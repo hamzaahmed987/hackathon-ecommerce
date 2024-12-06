@@ -41,11 +41,11 @@ export default function HeroSection() {
           <div className="absolute inset-0 p-4 lg:p-8 flex flex-col justify-center text-white text-center lg:text-left">
             {/* Brand Logo */}
             <div className="flex items-center justify-center lg:justify-start mb-2">
-              <img
+              <Image
                 src="apple.png"
                 alt="Brand Logo"
                 className="w-6 h-6 lg:w-8 lg:h-8 mr-2 mb-5"
-              />
+              ></Image>
               <h4 className="text-lg lg:text-xl mb-3">iPhone 14 Series</h4>
             </div>
   
